@@ -1,0 +1,14 @@
+{
+    "url":"https://thinking-tester-contact-list.herokuapp.com/",
+    "users": {
+        "addUser":"users",
+        "getUser":"users/me",
+        "loginUser":"users/login",
+        "logoutUser":"users/logout"
+    },
+    "contacts":{
+        "add":"contacts",
+        "getContact":"contacts/"
+
+    }
+}

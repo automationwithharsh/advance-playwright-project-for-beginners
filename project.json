@@ -1,0 +1,22 @@
+{
+    "name": "playwright-project",
+    "version": "1.0.0",
+    "main": "index.js",
+    "tags": [
+        "playwright",
+        "testing",
+        "automation",
+        "e2e"
+    ],
+    "eslint":{
+        "executor":"@nx/eslint:lint"
+    },
+    "lint":{
+        "dependsOn":[
+            {
+                "target":"eslint",
+                "params":"forward"
+            }
+        ]
+    }
+}

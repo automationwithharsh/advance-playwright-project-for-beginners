@@ -1,0 +1,50 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "e2e"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "author": "Kumar Harsha",
+  "license": "ISC",
+  "description": "Advanced playwright peoject for learner",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.54.2",
+    "@reportportal/agent-js-playwright": "^5.1.11",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^24.2.0",
+    "dotenv": "^17.2.1",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-playwright": "^2.2.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.6.2",
+    "prettier-plugin-packagejson": "^2.5.19"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "playwright": "^1.54.2",
+    "playwright-core": "^1.54.2",
+    "undici-types": "^7.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automationwithharsh/advance-playwright-project-for-beginners.git"
+  },
+  "bugs": {
+    "url": "https://github.com/automationwithharsh/advance-playwright-project-for-beginners/issues"
+  },
+  "homepage": "https://github.com/automationwithharsh/advance-playwright-project-for-beginners#readme"
+}
